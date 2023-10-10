@@ -12,6 +12,6 @@ export default function home() {
 
 
   return (
-    <div>Home sweet home!</div>
+    <div>Home sweet home</div>
   )
 }
