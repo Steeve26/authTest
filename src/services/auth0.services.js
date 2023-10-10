@@ -10,9 +10,6 @@ export const auth = new auth0.WebAuth({
   scope: userScope
 });
 
-// export const manag = new auth0.Management({
-// })
-
 
 
 

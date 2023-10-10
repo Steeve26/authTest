@@ -55,7 +55,7 @@ nav button {
 }
 main {
   display: flex;
-  min-height: calc(100vh - 77.5px);
+  min-height: calc(100vh - 79.33px);
 }
 button:first-of-type {
   margin-block: 1.5em 1em;
