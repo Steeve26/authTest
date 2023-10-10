@@ -26,7 +26,7 @@ export default function signup() {
       }, 
       
       function (error, result) {
-          if (err) {
+          if (error) {
             console.log("login unsuccessfull", error);
             return;
           }
