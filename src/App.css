@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+h1, p {
+  color: #333;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+nav {
+  display: flex;
+  padding-inline: 2em 1em;
+  justify-content: space-between;
+  background: lightgrey;
+  box-shadow: #32325d40 0px 6px 12px -2px, #0000004d 0px 3px 7px -3px;
+}
+nav ul {
+  display: flex;
+  gap: 2em;
+}
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+nav button {
+  padding-block: 13px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: #30d630;
+  cursor: pointer;
+  font-weight: 600;
+  padding-inline: 1em;
+}
+main {
+  display: flex;
+  min-height: calc(100vh - 77.5px);
+}
+button:first-of-type {
+  margin-block: 1.5em 1em;
+}
+button.disable {
+  background-color: lightgrey;
+  cursor: not-allowed;
+}
+button:hover {
+  background: white;
+}
+button.login {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  padding-block: 0px;
+}
+img.spinner {
+  animation: spin 2s infinite cubic-bezier(.17,.67,.83,.67);
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
