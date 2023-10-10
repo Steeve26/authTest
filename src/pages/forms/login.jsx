@@ -20,9 +20,9 @@ export default function signup() {
       auth.login({
         username: values.email,
         password: values.password,
-        realm: authRealm,
-        redirectUri: redirectUri,
-        responseType: response,
+        realm: "Username-Password-Authentication",
+        redirectUri: "https://authlogintest.netlify.app/authenticate",
+        responseType: "token",
       }, 
       
       function (error, result) {

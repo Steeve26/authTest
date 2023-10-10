@@ -20,7 +20,7 @@ export default function signup() {
         {
           email: values.email,
           password: values.password,
-          connection: authRealm,
+          connection: "Username-Password-Authentication",
         },
          function (error, result) {
           if (error) {
